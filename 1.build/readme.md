@@ -1,11 +1,12 @@
 **构建和编译Rust文件**
 =
 **1.文件结构**
---
+-
 * Rust文件的后缀名为.rs<br>
 * 若使用rustc命令进行编译,则无需任何文件结构可直接操作<br>
 * 若使用cargo进行编译,需经历新建、构建、执行共三个步骤<br>
-* 通过Mac终端命令执行操作<br>  
+* 通过Mac终端命令执行操作  
+
 **2.环境配置**
 -
 * 安装Rust<br>
@@ -42,7 +43,8 @@
     * CLion插件推荐
         `Rust`获得Rust语言支持(必要)<br>
         `GitHub Copilot`注释补全(付费)<br>
-        `Tabnine AI Autocomplete`自动推断补全<br>
+        `Tabnine AI Autocomplete`自动推断补全
+
 **3.命令操作**
 -
 * rustc的编译操作<br>
