@@ -7,7 +7,7 @@
 * 若使用cargo进行编译,需经历新建、构建、执行共三个步骤<br>
 * 通过Mac终端命令执行操作<br>  
 **2.环境配置**
---
+-
 * 安装Rust<br>
     * MacOS/Linux<br>
         执行安装脚本
@@ -44,7 +44,7 @@
         `GitHub Copilot`注释补全(付费)<br>
         `Tabnine AI Autocomplete`自动推断补全<br>
 **3.命令操作**
---
+-
 * rustc的编译操作<br>
     * 创建文件
     ```bash
