@@ -13,13 +13,11 @@
         执行安装脚本
         ```bash
         curl https://sh.rustup.rs -sSf | sh
-        ```<br>
-        
+        ```  
         让配置立即生效
         ```bash
         source $HOME/.cargo/env
-        ```<br>
-        
+        ```
     * Windows
         参见[Rust官网教程](https://www.rust-lang.org/tools/install)<br>
 * 更新与卸载<br>
