@@ -41,13 +41,13 @@
     ```  
     
 * IDE配置
-    * VS Code插件推荐
+    * VS Code插件推荐  
         `rust-analyzer`获得Rust语言支持(必要)<br>
         `Rust Syntax`改进的语法高亮<br>
         `GitHub Copilot`注释补全(付费)<br>
         `Tabnine AI Autocomplete`自动推断补全<br>
         
-    * CLion插件推荐
+    * CLion插件推荐  
         `Rust`获得Rust语言支持(必要)<br>
         `GitHub Copilot`注释补全(付费)<br>
         `Tabnine AI Autocomplete`自动推断补全  
