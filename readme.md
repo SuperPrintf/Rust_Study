@@ -7,7 +7,7 @@ Rust学习笔记
     * 由于cargo的特性,所有的Rust代码可在任何环境编译<br>
     * 编译结果为.exec文件,不适用非Mac\_X86机型<br>
 * 文件结构依从书本中的章节和知识点进行分类,已完善内容(共20章):
-    * 第1章.入门指南,已完成:`[代码:hello_rustc](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build/hello_rustc)` `[代码:hello_cargo](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build/hello_cargo)` `[readme:构建和编译Rust文件](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build)`<br>
+    * 第1章.入门指南,已完成:_[代码:hello_rustc](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build/hello_rustc) _ _[代码:hello_cargo](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build/hello_cargo) _ _[readme:构建和编译Rust文件](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build) _<br>
     * 第2章.编写一个猜数字游戏,已完成:`代码内容` `注释说明`<br>
     * 第3章.通用编程概念,已完成:`代码内容` `注释说明`<br>
     * 第4章.认识所有权,已完成:`代码内容`<br>
