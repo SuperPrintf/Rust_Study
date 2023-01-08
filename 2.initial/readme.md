@@ -23,3 +23,4 @@
         .expect("Please type a number!");
     println!("Your guess is: {}", guess);
     ```  
+* 生成一个保密数字
