@@ -8,7 +8,7 @@ Rust学习笔记
     * 编译结果为.exec文件,不适用非Mac\_X86机型<br>
 * 文件结构依从书本中的章节(共20章)和知识点进行分类:
     * 第1章.入门指南,已完成: [_`readme:构建和编译Rust文件`_](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build#构建和编译rust文件) [_`代码:hello_rustc`_](https://github.com/SuperPrintf/Rust_Study/tree/main/1.build/hello_rustc/hello.rs)  [_`代码:hello_cargo`_](https://github.com/SuperPrintf/Rust_Study/blob/main/1.build/hello_cargo/src/main.rs) <br>
-    * 第2章.编写一个猜数字游戏,施工中:`代码内容` `注释说明`<br>
+    * 第2章.编写一个猜数字游戏,施工中:`readme:猜数字游戏` [_`代码:guess`_](https://github.com/SuperPrintf/Rust_Study/blob/main/2.initial/guess/src/main.rs) <br>
     * 第3章.通用编程概念,施工中:`代码内容` `注释说明`<br>
     * 第4章.认识所有权,施工中:`代码内容`<br>
     * 第5章.使用结构体来组织相关联的数据,未开始<br>
