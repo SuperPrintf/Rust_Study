@@ -6,17 +6,17 @@
 * 假如玩家猜对了数字,则程序会打印一段祝贺并退出<br>
 
 ## 2.代码实现 
->处理一次猜测<br>
->>导入std::io库,以实现输入获取<br>
+* 处理一次猜测<br>
+    * 导入std::io库,以实现输入获取<br>
     ```rust
     usr std::io;
     ```  
->>输出提示<br>
+    * 输出提示<br>
     ```rust
     println!("Guess the number!");
     println!("Please input your guess:");
     ```  
->>输入获取<br>
+    * 输入获取<br>
     ```rust
     let mut guess = String::new();
     let guess: u32 = guess.trim().parse()
