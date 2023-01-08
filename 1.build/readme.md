@@ -81,9 +81,8 @@
     cd hello_cargo
     cargo build
     ```  
-    
-        _`* 构建产生的可执行文件会被存放在target/debug中`_<br>
-        * _`此时项目文件已经构建完毕,后续可用vim编辑src中的.rs文件或者直接使用IDE进行编辑调试`_<br>
+    _`构建产生的可执行文件会被存放在target/debug中`_<br>
+    _`此时项目文件已经构建完毕,后续可用vim编辑src中的.rs文件或者直接使用IDE进行编辑调试`_<br>
     
     * 通过VS Code开启文件
     ```bash
