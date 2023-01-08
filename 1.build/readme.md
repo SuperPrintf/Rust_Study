@@ -88,14 +88,14 @@
     ```bash
     open -a /Applelications/Visual\ Studio\ Code.app ../hello_cargo
     ```  
-        * _`只有构建好的代码才能在VS中Debug`_<br>
-        * _`CLion则可在创建项目时自动完成构建,无需使用cargo命令`_<br>
+    _`只有构建好的代码才能在VS中Debug`_<br>
+    _`CLion则可在创建项目时自动完成构建,无需使用cargo命令`_<br>
     
     * 检查是否能够通过编译
     ```bash
     cargo check
     ```  
-        * _`可以快速检测代码是否能通过编译,不会生成可执行文件`_<br>
+    _`可以快速检测代码是否能通过编译,不会生成可执行文件`_<br>
     
     * 运行项目
     ```bash
@@ -106,5 +106,5 @@
     ```bash
     cargo build --release
     ```  
-        * _`优化模式下生成的代码将会存储在target/release,而非在target/debug中`_<br>
-        * _`在优化模式下产生的代码拥有更小的体积和更高的性能,但相应的编译时会占用更多资源与时间`_<br>
+    _`优化模式下生成的代码将会存储在target/release,而非在target/debug中`_<br>
+    _`在优化模式下产生的代码拥有更小的体积和更高的性能,但相应的编译时会占用更多资源与时间`_<br>
