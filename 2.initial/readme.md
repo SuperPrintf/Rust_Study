@@ -43,4 +43,4 @@
         * 本程序的调用在V0.7.3及以下版本有效<br>
         * 推荐安装[`Better TOML`](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml "拓展主页")拓展
         * 在VS Code或CLion中编辑.toml文件时可通过指针悬停的方式查看依赖包的历史版本及快速跳转说明文件<br>
-        ![通过VS Code开启Cargo文件可以查看以来包版本信息](https://p.ipic.vip/ac6q7j.png "VS Code打开Cargo.toml文件")
+        ![通过VS Code开启Cargo文件可以查看以来包版本信息](https://p.ipic.vip/ac6q7j.png "鼠标悬弹出下拉栏显示历史版本")
