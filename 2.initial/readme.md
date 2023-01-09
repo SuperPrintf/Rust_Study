@@ -3,13 +3,13 @@
 # **猜数字游戏**</div>
 
 ## **1.项目内容**
-* 生成一个1-100的随机数<br>
-* 请求玩家对这个数字进行猜测<br>
-* 假如输入数字与随机数不同,那么将会给出数字偏大或者偏小的提示<br>
-* 假如玩家猜对了数字,则程序会打印一段祝贺并退出<br>
+* [_`请求玩家对这个数字进行猜测`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
+* [_`生成一个1-100的随机数`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
+* [_`假如输入数字与随机数不同,那么将会给出数字偏大或者偏小的提示`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
+* [_`假如玩家猜对了数字,则程序会打印一段祝贺并退出`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
 
 ## **2.代码实现**
-* 处理一次猜测<br>
+* ### 处理一次猜测<br>
     * 导入`std::io`库,以实现输入获取<br>
     ```rust
     usr std::io;
@@ -28,7 +28,7 @@
         .expect("Please type a number!");
     println!("Your guess is: {}", guess);
     ```
-* 生成一个保密数字<br>
+* ### 生成一个保密数字<br>
     * 导入依赖包以获取更多功能,Rust的依赖包首先在.toml文件标明<br>
     * 通过在Cargo.toml文件中添加如下描述<br>
     <!---toml-->
@@ -43,4 +43,6 @@
         * 本程序的调用在V0.7.3及以下版本有效<br>
         * 推荐安装[`Better TOML`](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml "拓展主页")拓展
         * 在VS Code或CLion中编辑.toml文件时可通过指针悬停的方式查看依赖包的历史版本及快速跳转说明文件<br>
-        ![通过VS Code开启Cargo文件可以查看以来包版本信息](https://p.ipic.vip/ac6q7j.png "鼠标悬弹出下拉栏显示历史版本")
+        ![通过VS Code开启Cargo文件可以查看以来包版本信息](https://p.ipic.vip/ac6q7j.png "鼠标悬弹出下拉栏显示历史版本")<br>
+* ### 判断大小<br>
+* ### 条件退出<br>
