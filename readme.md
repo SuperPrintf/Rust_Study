@@ -1,8 +1,7 @@
-<div align="center">
+<div align="center"> 
+# **Rust学习笔记**  
+</div> 
 
-# **Rust学习笔记**
-
-</div>  
 * 本项目跟随`《Rust权威指南》`一书进行学习与实践<br>
 * 所有学习过程通过.rs代码+注释的形式体现,readme的作用是方便整理和检索,主要内容在注释<br>
 * 采用VS Code或CLion作为项目IDE,编译环境为`MacOS`<br>
