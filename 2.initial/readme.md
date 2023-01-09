@@ -32,7 +32,7 @@
 * 生成一个保密数字<br>
     *导入依赖包以获取更多功能<br>
     通过在Cargo.toml文件中添加描述<br>
-    ```toml
+    ```json <!---toml-->
     [dependencies]
 
     rand = "0.3.14"
