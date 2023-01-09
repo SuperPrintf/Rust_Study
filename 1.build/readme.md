@@ -50,10 +50,14 @@
 
 * IDE配置
     * VS Code插件推荐
-        `rust-analyzer`获得Rust语言支持(必要)<br>
-        `Rust Syntax`改进的语法高亮<br>
-        `GitHub Copilot`注释补全(付费)<br>
-        `Tabnine AI Autocomplete`自动推断补全<br>
+        [`rust-analyzer`](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer "下载地址")
+        获得Rust语言支持(必要)<br>
+        [`Rust Syntax`](https://marketplace.visualstudio.com/items?itemName=dustypomerleau.rust-syntax "下载地址")
+        改进的语法高亮<br>
+        [`GitHub Copilot`](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot "下载地址")
+        注释补全(付费)<br>
+        [`Tabnine AI Autocomplete`](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode "下载地址")
+        AI推断补全<br>
 
     * CLion插件推荐
         `Rust`获得Rust语言支持(必要)<br>
