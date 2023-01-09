@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rust学习笔记  
+# **Rust学习笔记**  
 
 </div>
 * 本项目跟随`《Rust权威指南》`一书进行学习与实践<br>
