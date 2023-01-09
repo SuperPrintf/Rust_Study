@@ -3,10 +3,10 @@
 # **猜数字游戏**</div>
 
 ## **1.项目内容**
-* [_`请求玩家对这个数字进行猜测`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
-* [_`生成一个1-100的随机数`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
-* [_`假如输入数字与随机数不同,那么将会给出数字偏大或者偏小的提示`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
-* [_`假如玩家猜对了数字,则程序会打印一段祝贺并退出`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2代码实现)<br>
+* [_`请求玩家对这个数字进行猜测`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#处理一次猜测)<br>
+* [_`生成一个1-100的随机数`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2生成一个随机数字)<br>
+* [_`假如输入数字与随机数不同,那么将会给出数字偏大或者偏小的提示`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2判断大小)<br>
+* [_`假如玩家猜对了数字,则程序会打印一段祝贺并退出`_](https://github.com/SuperPrintf/Rust_Study/tree/main/2.initial#2条件退出)<br>
 
 ## **2.代码实现**
 * ### 处理一次猜测<br>
@@ -28,7 +28,7 @@
         .expect("Please type a number!");
     println!("Your guess is: {}", guess);
     ```
-* ### 生成一个保密数字<br>
+* ### 生成一个随机数字<br>
     * 导入依赖包以获取更多功能,Rust的依赖包首先在.toml文件标明<br>
     * 通过在Cargo.toml文件中添加如下描述<br>
     <!---toml-->
