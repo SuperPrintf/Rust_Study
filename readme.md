@@ -1,6 +1,6 @@
-<div align="center"> 
+<div align="center">
 
-# **Rust学习笔记** </div> 
+# **Rust学习笔记**</div>
 
 * 本项目跟随`《Rust权威指南》`一书进行学习与实践<br>
 * 所有学习过程通过.rs代码+注释的形式体现,readme的作用是方便整理和检索,主要内容在注释<br>
@@ -32,4 +32,4 @@
 
 _[1]Steve Klabnil,Carol Nichols.Rust权威指南[M].2020年6月第1版.毛靖凯,唐刚,沙渺.北京:电子工业出版社,2020:686_<br>
 _[2]MacBookPro,13-inch,2019,x86\_64,MacOS\_V13.1_ <br>
-![](https://p.ipic.vip/b2631r.jpg "《Rust权威指南》封面")
+![参考自《Rust权威指南》](https://p.ipic.vip/b2631r.jpg "《Rust权威指南》封面")
