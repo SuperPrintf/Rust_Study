@@ -30,14 +30,17 @@
     ```
 
 * 生成一个保密数字<br>
-    *导入依赖包以获取更多功能<br>
-    通过在Cargo.toml文件中添加描述<br>
-    ```json <!---toml-->
+    * 导入依赖包以获取更多功能<br>
+    * 通过在Cargo.toml文件中添加描述<br>
+    <!---toml-->
+    ```json
     [dependencies]
 
     rand = "0.3.14"
     ```
+    <!--* 关于依赖包版本的查看<br>-->
         * 可以在此处限定包版本为指定版本,可有效防止出现过高或过低版本出现依赖包不兼容的情况<br>
         * 当前(2023.01)rand包的最高版本为V0.8.5<br>
         * 本程序的调用在V0.7.3及以下版本有效<br>
+        * 在VS Code或CLion中编辑.toml文件时可通过指针悬停的方式查看<br>
         ![通过VS Code开启Cargo文件可以查看以来包版本信息](https://p.ipic.vip/ac6q7j.png "VS Code打开Cargo.toml文件")
