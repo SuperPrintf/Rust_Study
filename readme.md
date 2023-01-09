@@ -32,7 +32,6 @@
 
 _[1]Steve Klabnil,Carol Nichols.Rust权威指南[M].2020年6月第1版.毛靖凯,唐刚,沙渺.北京:电子工业出版社,2020:686_<br>
 _[2]MacBookPro,13-inch,2019,x86\_64,MacOS\_V13.1_ <br>
-[![baidu]](http://baidu.com)
-[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"<br>
+[![weibo-logo]](http://weibo.com/linpiaochen)<br>
 [![Rust]] (https://p.ipic.vip/b2631r.jpg)
 [Rust]:https://kaisery.github.io/trpl-zh-cn/foreword.html "《Rust权威指南》"
