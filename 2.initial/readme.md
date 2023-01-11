@@ -10,18 +10,17 @@
 
 ## **2.代码实现**
 * ### 处理一次猜测<br>
-    * 导入`std::io`库,以实现输入获取<br>
+    1. 导入`std::io`库,以实现输入获取<br>
     ```rust
-    usr std::io;
+    usr std::io; //该行代码放在首行
     ```
-
-    * 输出提示<br>
+        * usr表示
+    2. 输出提示<br>
     ```rust
     println!("Guess the number!");
     println!("Please input your guess:");
     ```
-
-    * 输入获取<br>
+    3. 输入获取<br>
     ```rust
     let mut guess = String::new();
     let guess: u32 = guess.trim().parse()
@@ -29,15 +28,14 @@
     println!("Your guess is: {}", guess);
     ```
 * ### 生成一个随机数字<br>
-    * 导入依赖包以获取更多功能,Rust的依赖包首先在.toml文件标明<br>
-    * 通过在Cargo.toml文件中添加如下描述<br>
-    <!---toml-->
+    1. 导入依赖包以获取更多功能,首先在.toml文件声明依赖包及其版本<br>
+    2. 通过在Cargo.toml文件中添加如下描述<br>
     ```toml
     [dependencies]
 
     rand = "0.3.14"
     ```
-    * 关于依赖包版本的查看<br>
+    3. 关于依赖包版本的查看<br>
         * 可以在此处限定包版本为指定版本,可有效防止出现过高或过低版本出现依赖包不兼容的情况<br>
         * 当前(2023.01)rand包的最高版本为V0.8.5<br>
         * 本程序的调用在V0.7.3及以下版本有效<br>

@@ -1,6 +1,5 @@
 <div align="center">
-**构建和编译Rust文件**
--
+# **构建和编译Rust文件**
 </div>
 
 **1.文件结构**
@@ -12,7 +11,7 @@
 
 **2.环境配置**
 -
-* 安装Rust<br>
+1. 安装Rust<br>
     * MacOS/Linux<br>
         执行安装脚本
         ```bash
@@ -29,26 +28,26 @@
     * Windows
         参见[_Rust官网教程_](https://www.rust-lang.org/tools/install) <br>
 
-* 更新与卸载<br>
-    版本查看
+2. 更新与卸载<br>
+    * 版本查看
     ```bash
     #MacOS/Linux
     rustc --version
     ```
 
-    更新Rust版本
+    * 更新Rust版本
     ```bash
     #MacOS/Linux
     rustup update
     ```
 
-    卸载Rust
+    * 卸载Rust
     ```bash
     #MacOS/Linux
     rustup self uninstall
     ```
 
-* IDE配置
+3. IDE配置
     * VS Code插件推荐
         [`rust-analyzer`](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer "下载地址")
         获得Rust语言支持(必要)<br>
@@ -67,7 +66,7 @@
 **3.命令操作**
 -
 * rustc的编译操作<br>
-    * 创建文件
+    1. 创建文件
     ```bash
     #MacOS/Linux
     mkdir hello_rustc
@@ -75,7 +74,7 @@
     touch hello.rs
     ```
 
-    * 编写并编译
+    2. 编写并编译
     ```bash
     #MacOS/Linux
     vim hello.rs
@@ -84,13 +83,12 @@
     ```
 
 * 通过cargo的构建及编译<br>
-    * cargo命令全平台支持<br>
-    * 创建工程
+    1. 创建工程
     ```bash
     cargo new hello_cargo
     ```
 
-    * 项目构建
+    2. 项目构建
     ```bash
     cd hello_cargo
     cargo build
@@ -98,24 +96,25 @@
     _`构建产生的可执行文件会被存放在target/debug中`_<br>
     _`此时项目文件已经构建完毕,后续可用vim编辑src中的.rs文件或者直接使用IDE进行编辑调试`_<br>
 
-    * 通过VS Code开启文件
-    ```bash
-    open -a /Applelications/Visual\ Studio\ Code.app ../hello_cargo
-    ```
-    _`只有构建好的代码才能在VS中Debug`_<br>
-    _`CLion则可在创建项目时自动完成构建,无需使用cargo命令`_<br>
-
-    * 检查是否能够通过编译
+    3. 检查是否能够通过编译
     ```bash
     cargo check
     ```
     _`可以快速检测代码是否能通过编译,不会生成可执行文件`_<br>
 
-    * 运行项目
+    4. 运行项目
     ```bash
     cargo run
     ```
 
+    * cargo命令全平台支持<br>
+    * 通过VS Code开启文件
+    ```bash
+    #MacOS
+    open -a /Applelications/Visual\ Studio\ Code.app ../hello_cargo
+    ```
+    _`只有构建好的代码才能在VS中Debug`_<br>
+    _`CLion则可在创建项目时自动完成构建,无需使用cargo命令`_<br>
     * 以Release模式进行构建
     ```bash
     cargo build --release
