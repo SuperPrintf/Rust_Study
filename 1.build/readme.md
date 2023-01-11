@@ -1,4 +1,5 @@
 <div align="center">
+
 # **构建和编译Rust文件**
 </div>
 
@@ -13,13 +14,13 @@
 -
 1. 安装Rust<br>
     * MacOS/Linux<br>
-        执行安装脚本
+        1. 执行安装脚本
         ```bash
         #MacOS/Linux
         curl https://sh.rustup.rs -sSf | sh
         ```
 
-        让配置立即生效
+        2. 让配置立即生效
         ```bash
         #MacOS/Linux
         source $HOME/.cargo/env
@@ -48,17 +49,17 @@
     ```
 
 3. IDE配置
-    * VS Code插件推荐
-        [`rust-analyzer`](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer "下载地址")
+    * VS Code插件推荐<br>
+        [`rust-analyzer`](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer "获取地址")
         获得Rust语言支持(必要)<br>
-        [`Rust Syntax`](https://marketplace.visualstudio.com/items?itemName=dustypomerleau.rust-syntax "下载地址")
+        [`Rust Syntax`](https://marketplace.visualstudio.com/items?itemName=dustypomerleau.rust-syntax "获取地址")
         改进的语法高亮<br>
-        [`GitHub Copilot`](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot "下载地址")
+        [`GitHub Copilot`](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot "获取地址")
         注释补全(付费)<br>
-        [`Tabnine AI Autocomplete`](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode "下载地址")
+        [`Tabnine AI Autocomplete`](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode "获取地址")
         AI推断补全<br>
 
-    * CLion插件推荐
+    * CLion插件推荐<br>
         `Rust`获得Rust语言支持(必要)<br>
         `GitHub Copilot`注释补全(付费)<br>
         `Tabnine AI Autocomplete`自动推断补全
@@ -88,7 +89,13 @@
     cargo new hello_cargo
     ```
 
-    2. 项目构建
+    2. 检查是否能够通过编译
+    ```bash
+    cargo check
+    ```
+    _`可以快速检测代码是否能通过编译,不会生成可执行文件`_<br>
+
+    3. 项目构建
     ```bash
     cd hello_cargo
     cargo build
@@ -96,28 +103,23 @@
     _`构建产生的可执行文件会被存放在target/debug中`_<br>
     _`此时项目文件已经构建完毕,后续可用vim编辑src中的.rs文件或者直接使用IDE进行编辑调试`_<br>
 
-    3. 检查是否能够通过编译
-    ```bash
-    cargo check
-    ```
-    _`可以快速检测代码是否能通过编译,不会生成可执行文件`_<br>
-
     4. 运行项目
     ```bash
     cargo run
     ```
 
-    * cargo命令全平台支持<br>
-    * 通过VS Code开启文件
+    5. 以Release模式进行构建:
+    ```bash
+    cargo build --release
+    ```
+    _`优化模式下生成的代码将会存储在target/release,而非在target/debug中`_<br>
+    _`在优化模式下产生的代码拥有更小的体积和更高的性能,但相应的编译时会占用更多资源与时间`_<br>
+
+    * cargo命令全平台支持,没有命令差异<br>
+    * 通过VS Code开启文件:
     ```bash
     #MacOS
     open -a /Applelications/Visual\ Studio\ Code.app ../hello_cargo
     ```
     _`只有构建好的代码才能在VS中Debug`_<br>
     _`CLion则可在创建项目时自动完成构建,无需使用cargo命令`_<br>
-    * 以Release模式进行构建
-    ```bash
-    cargo build --release
-    ```
-    _`优化模式下生成的代码将会存储在target/release,而非在target/debug中`_<br>
-    _`在优化模式下产生的代码拥有更小的体积和更高的性能,但相应的编译时会占用更多资源与时间`_<br>
