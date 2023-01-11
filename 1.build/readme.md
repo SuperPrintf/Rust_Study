@@ -100,7 +100,7 @@
     cd hello_cargo
     cargo build
     ```
-    >* _构建产生的可执行文件会被存放在**target/debug/**中_<br>
+    >* _构建产生的可执行文件会被存放在***target/debug/ ***中_<br>
     >* _此时项目文件已经构建完毕,后续可用vim编辑src中的.rs文件或者直接使用IDE进行编辑调试_<br>
 
     4. 运行项目
@@ -112,7 +112,7 @@
     ```bash
     cargo build --release
     ```
-    >* _优化模式下生成的代码将会存储在**target/release/**,而非在**target/debug/**中_<br>
+    >* _优化模式下生成的代码将会存储在***target/release/ ***,而非在***target/debug/ ***中_<br>
     >* _在优化模式下产生的代码拥有更小的体积和更高的性能,但相应的编译时会占用更多资源与时间_<br>
 
     * cargo命令全平台支持,没有命令差异<br>
@@ -121,5 +121,5 @@
     #MacOS
     open -a /Applelications/Visual\ Studio\ Code.app ../hello_cargo
     ```
-    >* _`只有构建好的代码才能在VS中Debug`_<br>
-    >* _`CLion则可在创建项目时自动完成构建,无需使用cargo命令`_<br>
+    >* _只有构建好的代码才能在VS中Debug_<br>
+    >* _CLion则可在创建项目时自动完成构建,无需使用cargo命令_<br>
