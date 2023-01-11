@@ -14,9 +14,8 @@
     ```rust
     use std::io; //该行代码放在首行
     ```
-    * 说明:<br>
-        * std::io不是预导入(prelude)的条目<br>
-        * 需要用use语句显式的进行导入声明<br>
+    >* std::io不是预导入(prelude)的条目<br>
+    >* 需要用use语句显式的进行导入声明<br>
     2. 输出提示<br>
     ```rust
     println!("Guess the number!");
@@ -26,12 +25,11 @@
     ```rust
     let mut guess = String::new();
     ```
-    >关于本句:<br>
-    >>* ***let***语句创建了一个新的变量(variable)<br>
-    >>* ***mut***关键字修饰变量表示其可变<br>
-    >>* ***=***将右值绑定至左边变量<br>
-    >>* ***String::new***函数创建了一个新的空白字符串<br>
-    >>* **::***表明new是String类型的一个关联函数(associated function)/静态方法(static method)<br>
+    >* ***let***语句创建了一个新的变量(variable)<br>
+    >* ***mut***关键字修饰变量表示其可变<br>
+    >* ***\=***将右值绑定至左边变量<br>
+    >* ***String::new***函数创建了一个新的空白字符串<br>
+    >* ***::***表明new是String类型的一个关联函数(associated function)/静态方法(static method)<br>
     4. 输入获取<br>
     ```rust
     let guess: u32 = guess.trim().parse()
