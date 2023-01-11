@@ -100,7 +100,7 @@
     cd hello_cargo
     cargo build
     ```
-    >* _构建产生的可执行文件会被存放在**/target/debug**中_<br>
+    >* _构建产生的可执行文件会被存放在**target/debug**中_<br>
     >* _此时项目文件已经构建完毕,后续可用vim编辑src中的.rs文件或者直接使用IDE进行编辑调试_<br>
 
     4. 运行项目
