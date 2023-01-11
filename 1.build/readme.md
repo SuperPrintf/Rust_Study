@@ -108,7 +108,7 @@
     cargo run
     ```
 
-    5. 以Release模式进行构建:
+    5. 以Release模式进行构建
     ```bash
     cargo build --release
     ```
